@@ -60,3 +60,9 @@ Inspired by Roy Osherove [https://osherove.com/]
 
 A `build.sh` script is provided, running it will invoke maven and build the
 project and run the tests.
+
+## Step 1
+
+Assumptions:
+
+* Input are integer
