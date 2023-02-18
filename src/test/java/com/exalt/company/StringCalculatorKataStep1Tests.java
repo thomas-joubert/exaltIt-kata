@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class StringCalculatorKataTests
+public class StringCalculatorKataStep1Tests
 {
     StringCalculatorKata stringCalculator = new StringCalculatorKata();
 
