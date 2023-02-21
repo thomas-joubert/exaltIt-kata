@@ -2,7 +2,10 @@ package com.exalt.company;
 
 import org.junit.jupiter.api.Test;
 
+import java.text.ParseException;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class StringCalculatorKataStep1Tests
 {
@@ -46,5 +49,13 @@ public class StringCalculatorKataStep1Tests
         String operation = "";
 
         assertEquals(0, stringCalculator.add(operation));
+    }
+
+    @Test
+    public void incorrectFormat()
+    {
+        String operation = ",,";
+
+        assertThrows(RuntimeException.class, () -> stringCalculator.add(operation));
     }
 }
