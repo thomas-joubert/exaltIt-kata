@@ -4,7 +4,7 @@
 - [ ] Java 8+
 - [ ] Maven 3
 - [ ] Junit 5
-- [ ] Use StringCalculatorKata and dont change project structure
+- [ ] Use StringCalculatorKata and don't change project structure
 
 ### Step 1
 
