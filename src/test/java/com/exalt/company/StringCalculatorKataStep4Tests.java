@@ -40,4 +40,12 @@ public class StringCalculatorKataStep4Tests {
 
         assertThrows(RuntimeException.class, () -> stringCalculator.add(operation));
     }
+
+    @Test
+    public void formatButNoNumbers()
+    {
+        String operation = "//|\n";
+
+        assertThrows(RuntimeException.class, () -> stringCalculator.add(operation));
+    }
 }
